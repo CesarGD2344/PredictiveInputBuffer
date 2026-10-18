@@ -19,3 +19,4 @@ jobs:
         with:
           sdk: given
           target: Win64
+          use-lto: false
