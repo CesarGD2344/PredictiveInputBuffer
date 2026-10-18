@@ -1,0 +1,12 @@
+
+{
+  "geode": "5.11.2",
+  "gd": {
+    "win": "2.2081"
+  },
+  "id": "cesar.input-buffer",
+  "name": "Predictive Input Buffer",
+  "version": "v0.1.0",
+  "developer": "CesarGD96",
+  "description": "F6 cycles through five input buffer stages."
+}
