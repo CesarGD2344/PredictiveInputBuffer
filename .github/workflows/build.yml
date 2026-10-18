@@ -9,10 +9,13 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Build mod
         uses: geode-sdk/build-geode-mod@main
+        with:
+          sdk: latest
+          target: Win64
